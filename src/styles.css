@@ -1,0 +1,51 @@
+.header{
+
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(29, 185, 212);
+    height: 80px;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.navbar-list{
+
+    box-sizing: border-box;
+    display: inline;
+    color: white;
+    font-size: 155%;
+    width: 10%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    font-family: 'Lucida Sans';
+    box-sizing: border-box;
+    
+}
+
+.navbar-link:hover{
+
+    background-color: rgb(24, 84, 163);
+}
+
+.navbar-link:visited{
+    color:white;
+    text-decoration: none;
+}
+
+.navbar-link{
+    text-decoration: none;
+}
+
+.logo{
+    width: 200px;
+    padding-left: 30px;    
+    padding-bottom: 5px;
+}

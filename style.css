@@ -140,11 +140,13 @@ body{
 }
 .news{
     width: 100%;
-    background-color: cadetblue;
+    background-color:rebeccapurple;
     height: 240px;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
+
+    height: 100%;
 }
 
 .news > div:first-child{
@@ -164,6 +166,11 @@ body{
     margin: 10px 0;
     padding: 0 40px;
     color: white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .news-text{
@@ -171,6 +178,9 @@ body{
     text-align: justify;
     width: 49%;
     padding: 1em 0;
+
+        
+    
 }
 
 .news-text > span.news-url{
@@ -219,4 +229,25 @@ hr{
 .main-menu__link:hover{
     text-decoration: underline;
     font-weight: bold;
+}
+
+.pie{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rebeccapurple;
+    color: cornsilk;
+}
+
+.descripcion{
+
+    width:30%;
+    bottom: ;
+
+}
+
+.nombres{
+    width: 80%;
+
 }

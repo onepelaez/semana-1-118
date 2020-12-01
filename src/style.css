@@ -157,6 +157,7 @@ body{
     font-style: italic; 
 }
 
+
 .service-icon {
     font-size:100px;
     padding-top: 30px;
@@ -167,11 +168,13 @@ body{
 }
 .news{
     width: 100%;
-    background-color: cadetblue;
+    background-color: cadetblue;   
     height: 240px;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
+    height: 100%;
+
 }
 
 .news > div:first-child{
@@ -190,7 +193,10 @@ body{
 .news-image{
     margin: 10px 0;
     padding: 0 40px;
-    color: white;
+    color: white;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .news-text{
@@ -246,4 +252,24 @@ hr{
 .main-menu__link:hover{
     text-decoration: underline;
     font-weight: bold;
+}
+
+.pie{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rebeccapurple;
+    color: cornsilk;
+}
+
+.descripcion{
+
+    width:30%;
+    bottom: ;
+
+}
+
+.nombres{
+    width: 80%;
 }

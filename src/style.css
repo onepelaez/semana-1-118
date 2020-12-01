@@ -1,11 +1,11 @@
 body{
     margin-top: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Aurulent Sans', sans-serif;
 }
 
 .container{
     width: 1200px;
-    background-color: #888888;
+    background-color: #ffffff;
     height: 2000px;
     -ms-flex-item-align: center;
         align-self: center;
@@ -74,8 +74,6 @@ body{
 
 .section-1{
     height: 500px;
-    background-color: rebeccapurple;
-
 }
 
 .section-2{
@@ -105,14 +103,38 @@ body{
 }
 
 .col-3{
-    width: 33.08%;
-    height: 470px;
-    background-color: aquamarine;
+    width: 30%;
+    height: 490px;
     display: inline-block;
     padding: -15px;
-    margin-top: 5px;
+    margin: 5px 17px;
     text-align: center;
+    color: #FFF;
 }
+
+.bg-service1 {
+    background-color: #3498db;
+    border-radius: 25px;
+}
+
+.bg-service2 {
+    background-color: #f39c12;
+    border-radius: 25px;
+}
+
+.bg-service3 {
+    background-color: #10ac84;
+    border-radius: 25px;
+}
+
+.more-info {
+    text-decoration: none;
+    font-size: 14px;
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 .col-5{
     width: 19%;
     height: 470px;
@@ -126,7 +148,7 @@ body{
     padding: 0.5em 0;
 }
 .service-text{
-    padding: 10px;
+    padding: 30px;
     text-align: justify;
     bottom: 0;
 }
@@ -135,18 +157,24 @@ body{
     font-style: italic; 
 }
 
+
+.service-icon {
+    font-size:100px;
+    padding-top: 30px;
+}
+
 .section-news > div:first-child{
     margin-bottom: 2px; 
 }
 .news{
     width: 100%;
-    background-color:rebeccapurple;
+    background-color: cadetblue;   
     height: 240px;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-
     height: 100%;
+
 }
 
 .news > div:first-child{
@@ -165,12 +193,10 @@ body{
 .news-image{
     margin: 10px 0;
     padding: 0 40px;
-    color: white;
-    
+    color: white;    
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .news-text{
@@ -178,9 +204,6 @@ body{
     text-align: justify;
     width: 49%;
     padding: 1em 0;
-
-        
-    
 }
 
 .news-text > span.news-url{
@@ -249,5 +272,4 @@ hr{
 
 .nombres{
     width: 80%;
-
 }
